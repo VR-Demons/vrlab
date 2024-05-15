@@ -1,0 +1,60 @@
+{
+    "name": "Xcaret",
+    "maps": [
+        {
+            "name": "lenovocontrollers",
+            "id": "22d326b4-9c76-4902-987e-ca9b9aae08c5",
+            "actions": [
+                {
+                    "name": "RightTrigger",
+                    "type": "Button",
+                    "id": "cc52b009-5ec4-474a-82d7-f893747ed4d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "leftTrigger",
+                    "type": "Button",
+                    "id": "7527b103-0f17-4d41-87a7-8061b9184860",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "816fbf74-7cdb-4082-bf5b-59605bc365c7",
+                    "path": "<XRController>{RightHand}/triggerButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "lenovo",
+                    "action": "RightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a41fc40e-aedb-481d-aa27-ab1415bc9024",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "lenovo",
+                    "action": "leftTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "lenovo",
+            "bindingGroup": "lenovo",
+            "devices": []
+        }
+    ]
+}

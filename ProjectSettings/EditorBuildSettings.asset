@@ -12,6 +12,8 @@ EditorBuildSettings:
     path: Assets/VRLab/Scenes/00_Splash.unity
     guid: 28f42c34ce3aec644a33b887197a0e2f
   m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: be95e33014ee8a64595040eda3090a58,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b963d01ebe7d127499c88b1754fe3e5a,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f8bd1c99c45242d4cbe528f9f751783c,
