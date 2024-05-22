@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: BallRobot_eye_blue
   m_Shader: {fileID: 4800000, guid: ffd328bc1430c8345a7eee94b15beabd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHAPREMULTIPLY_ON
@@ -19,6 +21,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -47,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ExpressionImage:
-        m_Texture: {fileID: 2800000, guid: 36829d8190f32414eb71505c249ce733, type: 3}
+        m_Texture: {fileID: 2800000, guid: f898779c9562ac54a8e831d659890907, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -81,7 +84,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _ImageColumns: 10
-    - _ImageRow: 8
+    - _ImageRow: 10
     - _Metallic: 0
     - _Mode: 3
     - _OcclusionStrength: 1
@@ -98,6 +101,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 0.6413793, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0, g: 0.9882353, b: 2.9960785, a: 1}
+    - _MainColor: {r: 0, g: 2.444753, b: 2.9960785, a: 1}
     - _MainColor1: {r: 0.3849042, g: 1.9606057, b: 2.297397, a: 1}
   m_BuildTextureStacks: []

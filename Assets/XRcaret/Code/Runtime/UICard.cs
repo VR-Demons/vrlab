@@ -8,18 +8,24 @@ public class UICard : MonoBehaviour
     [SerializeField] UnityEvent uevent;
     [SerializeField] float delay = 0;
     [SerializeField] bool autostart = false;
+
+    private Coroutine coroutine;
     public void TriggerEvent()
     {
-        uevent.Invoke();
+        //uevent.Invoke();
     }
     private void OnEnable()
     {
         if (autostart)
-            StartCoroutine(TriggerEventDelayed());
+            coroutine = StartCoroutine(TriggerEventDelayed());
     }
     public IEnumerator TriggerEventDelayed()
     {
         yield return new WaitForSeconds(delay);
         uevent.Invoke();
+    }
+    public void Cancel()
+    {
+        StopCoroutine(coroutine);
     }
 }
