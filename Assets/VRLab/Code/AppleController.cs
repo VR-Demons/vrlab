@@ -31,8 +31,8 @@ public class AppleController : MonoBehaviour
             a.transform.localPosition = pos;
 
             Rigidbody rb = a.GetComponent<Rigidbody>();
-            rb.AddRelativeTorque(new Vector3(Random.Range(0, 0.5f), Random.Range(0, 0.5f), Random.Range(0, 0.5f)), ForceMode.VelocityChange);
-            rb.AddRelativeForce(new Vector3(Random.Range(0, 0.01f), Random.Range(0, 0.01f), Random.Range(0, 0.01f)), ForceMode.VelocityChange);
+            rb.AddRelativeTorque(new Vector3(Random.Range(0.1f, 0.5f), Random.Range(0.1f, 0.5f), Random.Range(0.1f, 0.5f)), ForceMode.VelocityChange);
+            rb.AddRelativeForce(new Vector3(Random.Range(0.005f, 0.01f), Random.Range(0.005f, 0.01f), Random.Range(0.005f, 0.01f)), ForceMode.VelocityChange);
 
             a.GetComponent<XRGrabInteractable>().selectEntered.AddListener(OnSelectEntered);
         }
