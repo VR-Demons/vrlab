@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f647cc0545697264a9878224faada6d5, type: 3}
   m_Name: MetaQuestFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 1
+  m_enabled: 0
   nameUi: Meta Quest Support
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.metaquest
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55e2f339a4744babb080d663cf37a2f, type: 3}
   m_Name: BaseRuntimeFeature Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Base Runtime
   version: 0.19.1.1
   featureIdInternal: com.qualcomm.snapdragon.spaces.base

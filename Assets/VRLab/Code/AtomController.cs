@@ -12,6 +12,8 @@ public class AtomController : MonoBehaviour
     [SerializeField] List<GameObject> neutrons;
     [SerializeField] List<GameObject> protons;
     [SerializeField] List<GameObject> electrons;
+
+    [SerializeField] GameObject tag;
     private void Start()
     {
         for (int i = 0; i < atomicnumber; i++)

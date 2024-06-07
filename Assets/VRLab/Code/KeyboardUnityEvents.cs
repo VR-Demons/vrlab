@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class KeyboardUnityEvents : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class KeyboardUnityEvents : MonoBehaviour
             keyboard.PresentKeyboard();
             return;
         }
+        GameState.Name = keyboard.InputField.text;
         OnSend.Invoke(keyboard.InputField.text);
     }
 }
